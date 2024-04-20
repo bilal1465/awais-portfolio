@@ -3,7 +3,8 @@
 import Image from "next/image";
 import { NavBar } from "./components/NavBar";
 import { HeroVideo } from "./components/HeroVideo";
-import { MediaRoulette } from "./components/MediaRoulette";
+import { IslamicMediaCarousel } from "./components/IslamicMediaCarousel";
+import { AutoMediaCarousel } from "./components/AutoMediaCarousel";
 
 export default function Home() {
   return (
@@ -30,8 +31,16 @@ export default function Home() {
       <div className="flex flex-col items-center justify-center">
         <h1 className="text-7xl py-10">Islamic Events</h1>        
       </div>
-      <div className="flex justify-center pb-4">
-        <MediaRoulette />
+      <div className="flex flex-col items-center justify-center pb-4">
+        <IslamicMediaCarousel />
+        <p className="pt-2">Watch with <a className="italic" href="/">Audio!</a></p>
+      </div>
+      <div className="flex flex-col items-center justify-center">
+        <h1 className="text-7xl py-10">Automotive</h1>        
+      </div>
+      <div className="flex flex-col items-center justify-center pb-4">
+        <AutoMediaCarousel />
+        <p className="pt-2">Watch with <a className="italic" href="/">Audio!</a></p>
       </div>
     </div>
   );

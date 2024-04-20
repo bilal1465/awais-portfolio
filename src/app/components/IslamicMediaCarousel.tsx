@@ -1,8 +1,7 @@
-import { MediaCard } from "./MediaCard";
 import { Carousel } from "@material-tailwind/react";
 
 
-export const MediaRoulette = () => {
+export const IslamicMediaCarousel = () => {
     return (
         <Carousel loop className="rounded-xl lg:w-1/4 md:w-1/3 sm:w-1/2" placeholder={<div>Loading...</div>} >
             <video autoPlay muted loop className="">
