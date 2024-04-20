@@ -6,6 +6,7 @@ import { HeroVideo } from "./components/HeroVideo";
 import { IslamicMediaCarousel } from "./components/IslamicMediaCarousel";
 import { AutoMediaCarousel } from "./components/AutoMediaCarousel";
 
+
 export default function Home() {
   return (
     <div className="overflow-hidden">
@@ -35,6 +36,7 @@ export default function Home() {
         <IslamicMediaCarousel />
         <p className="pt-2">Watch with <a className="italic" href="/">Audio!</a></p>
       </div>
+      <hr className="w-72 h-1 mx-auto my-4 bg-gray-600 border-0 rounded md:my-10"/>
       <div className="flex flex-col items-center justify-center">
         <h1 className="text-7xl py-10">Automotive</h1>        
       </div>
