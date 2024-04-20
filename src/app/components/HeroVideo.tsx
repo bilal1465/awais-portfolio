@@ -1,4 +1,3 @@
-
 export const HeroVideo = () => {
     return (
         <div className="flex items-center justify-center w-screen pt-5 pb-14">
