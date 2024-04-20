@@ -10,11 +10,13 @@ export const NavBar = () => {
                 <a className="border-2 p-1">Photos</a>
                 <a className="border-2 p-1">Videos</a>
             </div>
-            <h1 className="w-full text-3xl text-center">Awais</h1>
+            <a className="w-full text-3xl text-center" href="/">Awais</a>
             <div className="w-full text-right space-x-4">
+                <a target="_blank" href="https://www.instagram.com/awais_mu/">
                 <button>
                     <FaInstagram size={40}/>
                 </button>
+                </a>
                 <button>
                     <FaTiktok size={40}/>
                 </button>

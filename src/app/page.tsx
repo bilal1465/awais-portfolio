@@ -32,18 +32,12 @@ export default function Home() {
       <div className="flex flex-col items-center justify-center">
         <h1 className="text-7xl py-10">Islamic Events</h1>        
       </div>
-      <div className="flex flex-col items-center justify-center pb-4">
-        <IslamicMediaCarousel />
-        <p className="pt-2">Watch with <a className="italic" href="/">Audio!</a></p>
-      </div>
+        <IslamicMediaCarousel />      
       <hr className="w-72 h-1 mx-auto my-4 bg-gray-600 border-0 rounded md:my-10"/>
       <div className="flex flex-col items-center justify-center">
         <h1 className="text-7xl py-10">Automotive</h1>        
       </div>
-      <div className="flex flex-col items-center justify-center pb-4">
         <AutoMediaCarousel />
-        <p className="pt-2">Watch with <a className="italic" href="/">Audio!</a></p>
-      </div>
     </div>
   );
 }
